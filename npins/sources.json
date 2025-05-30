@@ -1,0 +1,23 @@
+{
+  "pins": {
+    "nixos-24.11": {
+      "type": "Channel",
+      "name": "nixos-24.11",
+      "url": "https://releases.nixos.org/nixos/24.11/nixos-24.11.718438.78add7b7abb6/nixexprs.tar.xz",
+      "hash": "15ypcs276rlq1ir90mi8gvcgcvdv00wawkby9mvd3qjbfsxz3kq8"
+    },
+    "nixpkgs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "SomeoneSerge",
+        "repo": "nixpkgs"
+      },
+      "branch": "refactor/cuda/db/draft",
+      "revision": "97b983f192c83ecc9c88ba09c0058b71b8357b43",
+      "url": "https://github.com/SomeoneSerge/nixpkgs/archive/97b983f192c83ecc9c88ba09c0058b71b8357b43.tar.gz",
+      "hash": "09r6xwpxcw6zvj6kdpsyral6lsmp8bz31ihmnzbhsqvl29617nkr"
+    }
+  },
+  "version": 3
+}
